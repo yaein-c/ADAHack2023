@@ -1,5 +1,5 @@
 # ADAHack2023
-My personal contribution to ADAhack 2023. Ongoing and continuing as a personal project.
+My personal contribution to ADAhack 2023 was to work on the reputation management system for an app. This project is ongoing and continuing as a personal project.
 
 # An Implementation of the Eigentrust Algorithm for P2P Networks
 ## Reputation Systems
