@@ -12,3 +12,6 @@ Within P2P networks, peers can also rate eachother after each interaction. Howev
 
 ## Benefits of this Algorithm
 The method that this algorithm uses of calculating the global trust value of a peer does not have the pitfall of needing to query the entire network to aggregate the rating for all peers like in other P2P algorithms. Additionally, this algorithm has been shown to be very successful in marking malicious peers within a network, even in the cases where up to 70% of the network is made up of malicious peers.
+
+## Reference
+https://dl.acm.org/doi/abs/10.1145/775152.775242
