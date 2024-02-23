@@ -10,4 +10,5 @@ Eigentrust is an algorithm for P2P reputation management systems. It is named as
 
 Within P2P networks, peers can also rate eachother after each interaction. However instead of summing all the ratings given to each peer, this algorithm uses a different approach. The eigentrust algorithm uses a notion called transitive trust: if you have a group of friends that are trustworthy, then you can assume that your friends' friends are also trustworthy. Similarly if a peer *i* trusts a peer *j*, peer *i* can also trust the peers that have a high trust rating given by peer *j*. 
 
+## Benefits of this Algorithm
 The method that this algorithm uses of calculating the global trust value of a peer does not have the pitfall of needing to query the entire network to aggregate the rating for all peers like in other P2P algorithms. Additionally, this algorithm has been shown to be very successful in marking malicious peers within a network, even in the cases where up to 70% of the network is made up of malicious peers.
